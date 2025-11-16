@@ -208,3 +208,10 @@ __marimo__/
 
 # User
 .python-version
+.DS_Store
+data/~$dataset.xlsx
+data/HistoricalData_1763303400977_msft.csv
+data/HistoricalData_1763304193022_aapl.csv
+data/HistoricalData_1763304205386_nvda.csv
+data/HistoricalData_1763304226356_gld.csv
+data/HistoricalData_1763304235772_slv.csv

@@ -1,0 +1,99 @@
+/* Global Reset & Dark Background */
+html, body, #react-entry-point {
+    background-color: #17191d !important;
+    color: #f3f4f6;
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Main Content Wrapper */
+.main-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Header Styling */
+.header-container {
+    text-align: center;
+    color: #f3f4f6;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #102e6a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.header-container h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Dropdown/Control Container */
+.dropdown-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; 
+    margin-bottom: 5px;
+    padding: 10px;
+    color: #f3f4f6;
+}
+
+/* Custom Tab Styles */
+.dashboard-tabs {
+    font-size: 14px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #4b5563;
+    background-color: #17191d; 
+}
+
+.custom-tab {
+    background-color: #222426 !important;
+    color: #2c63cf;
+    border: 1px solid #4b5563 !important;
+    border-bottom: none !important;
+    border-radius: 6px 6px 0 0;
+    padding: 10px 15px;
+    margin-right: 3px;
+    margin-left: 3px;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.custom-tab:hover {
+    background-color: #2a2c31 !important;
+    font-weight: bold;
+}
+
+.custom-tab--selected {
+    background-color: #222426 !important;
+    color: #2c63cf !important;
+    border: 1px solid #4b5563 !important;
+    border-bottom: none !important;
+    border-top: 3px solid #2c63cf !important;
+    font-weight: bold;
+}
+
+/* Dropdown Specific Styling */
+.Select-control {
+    background-color: #222426 !important;
+    border-color: #4b5563 !important;
+}
+.Select-value-label {
+    color: #f3f4f6 !important;
+}
+.Select-arrow {
+    border-color: #f3f4f6 transparent transparent transparent !important;
+}
+.Select-menu-outer {
+    background-color: #222426 !important;
+    border-color: #4b5563 !important;
+}
+.Select-option.is-focused {
+    background-color: #4b5563 !important;
+}
+.Select-option {
+    color: #f3f4f6 !important;
+}
