@@ -1,5 +1,7 @@
 # Plotly Dash
 This repo creates a dummy dashboard using 1Y ticker data from NASDAQ.
+<br><br>
+![Image of Dashboard](./data/dash_screenshot.png)
 
 ## Instructions
 This dash is pythonic in that its components can be quite easily modified to fit time series analysis. Currently, it produces a Plotly Dash which contains selectable tickers across 2 different tabs (stocks and precious metals).
